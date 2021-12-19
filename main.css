@@ -44,3 +44,7 @@ ol, ul, img, p{
     padding: 14px 16px;
     text-decoration: none;
 }
+
+#navbar ul:last-child {
+    float: right;
+}
