@@ -108,3 +108,11 @@ tr:hover{
 .form-register h1{
     margin-bottom: 40px;
 }
+
+.form-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin-bottom : 100px;
+}
