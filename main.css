@@ -136,3 +136,15 @@ tr:hover{
     width : 33.33%;
     padding : 25px;
 }
+
+@media screen and (max-width: 850px) {
+    .my-portofolio img{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .my-portofolio img{
+        width: 100%;
+    }
+}
