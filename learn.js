@@ -67,3 +67,24 @@ function VolumeBalok(p,l,t){
     let VolumeBalok = p * l * t;//Rumus Volume pada Balok
     return VolumeBalok;
 }console.log('Volume Balok = ', VolumeBalok(4,5,6)); // Volume Balok = 120 
+
+//Latihan 5.6 Bermain dengan Array
+var buah = ["Alpukat", "Jeruk", "Mangga", "Pisang"];
+console.log(buah[0]); //menampilkan Alpukat
+console.log(buah[1]); //menampilkan Jeruk
+console.log(buah[2]); //menampilkan Mangga
+console.log(buah[3]); //menampilkan Pisang
+
+buah[1] = "Apel"; //mengganti Jeruk menjadi Apel
+console.log(buah); //index 1 telah berganti Apel
+buah.push("Pepaya"); //menambah Pepaya di akhir Array
+console.log(buah); //mengecek perubahan
+buah.pop(); //melihat dan menghapus item dari Array
+console.log(buah); //mengecek perubahan
+console.log('Panjang Array = ', buah.length); //menghitung panjang Array
+buah.unshift("Anggur"); //menambah Anggur pada awal Array
+console.log(buah); //mengecek perubahan atau menampilkan isi array
+buah.shift(); //menampilkan dan menghapus item awal dari array
+console.log(buah); //mengecek perubahan atau menampilkan isi array
+console.log(buah.sort()); //mengurutkan Array
+console.log(buah.reverse()); //membalikkan urutan Array tersebut
