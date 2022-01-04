@@ -87,3 +87,28 @@ buah.shift(); //menampilkan dan menghapus item awal dari array
 console.log(buah); //mengecek perubahan atau menampilkan isi array
 console.log(buah.sort()); //mengurutkan Array
 console.log(buah.reverse()); //membalikkan urutan Array tersebut
+
+//Latihan 5.7 Bermain dengan Objek
+let profile = {
+    NamaDepan : "Gyoni",
+    NamaBelakang : "Darvia",
+    Alamat : "Rengat",
+    Kontak : "082288971340",
+    Pekerjaan : "Mahasiswa",
+    NamaLengkap : function(){ // Fungsi yang berisi Nama Depan + Nama Belakang
+        return this.NamaDepan + " " + this.NamaBelakang; // mengembalikan nilainya
+    }
+}
+console.log(profile.NamaDepan); // menampilkan nama depan
+console.log(profile.NamaBelakang); // menampilkan nama belakang
+console.log(profile.Alamat); // menampilkan alamat
+console.log(profile.Kontak); // menampilkan kontak
+console.log(profile.Pekerjaan); // menampilkan pekerjaan 
+console.log(profile.NamaLengkap()); // menampilkan nama lengkap
+
+console.log(profile["NamaDepan"]); // menampilkan nama depan
+console.log(profile["NamaBelakang"]); // menampilkan nama belakang
+console.log(profile["Alamat"]); // menampilkan alamat
+console.log(profile["Kontak"]); // menampilkan kontak
+console.log(profile["Pekerjaan"]); // menampilkan pekerjaan
+console.log(profile["NamaLengkap"]()); // menampilkan nama lengkap 
