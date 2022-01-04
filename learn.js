@@ -74,13 +74,12 @@ console.log(buah[0]); //menampilkan Alpukat
 console.log(buah[1]); //menampilkan Jeruk
 console.log(buah[2]); //menampilkan Mangga
 console.log(buah[3]); //menampilkan Pisang
-
 buah[1] = "Apel"; //mengganti Jeruk menjadi Apel
 console.log(buah); //index 1 telah berganti Apel
 buah.push("Pepaya"); //menambah Pepaya di akhir Array
-console.log(buah); //mengecek perubahan
+console.log(buah); //mengecek perubahan atau menampilkan isi array
 buah.pop(); //melihat dan menghapus item dari Array
-console.log(buah); //mengecek perubahan
+console.log(buah); //mengecek perubahan atau menampilkan isi array
 console.log('Panjang Array = ', buah.length); //menghitung panjang Array
 buah.unshift("Anggur"); //menambah Anggur pada awal Array
 console.log(buah); //mengecek perubahan atau menampilkan isi array
