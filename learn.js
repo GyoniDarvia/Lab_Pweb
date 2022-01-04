@@ -39,3 +39,15 @@ console.log('a == b =', a == b);//menampilkan a == b = false
 console.log('a != b =', a != b);//menampilkan a !=b = true
 console.log('a === b =', a === b);//menampilkan a === b = false
 console.log('a !== b =', a !== b);//menampilkan a !== b = true
+
+//Latihan 5.4. Melakukan operasi sederhana dengan operator logika
+console.log('true && true =', true && true);//menampilkan true && true = true
+console.log('true && false =', true && false);//menampilkan true && false = false
+console.log('false && true =', false && true);//menampilkan false && true = false
+console.log('false && false =', false && false);//menampilkan false && false = false
+console.log('true || true =', true || true);//menampilkan true || true = true
+console.log('true || false =', true || false);//menampilkan true || false = true
+console.log('false || true =', false || true);//menampilkan false || true = true
+console.log('false || false =', false || false);//menampilkan false || false = false
+console.log('!true =', !true);//menampilkan !true = false
+console.log('!false =', !false);//menampilkan !false = true
