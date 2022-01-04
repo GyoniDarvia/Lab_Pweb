@@ -26,3 +26,16 @@ console.log('x++ =', x++);//menampilkan x++=12
 console.log('++x =', ++x);//menampilkan ++x=14
 console.log('x-- =', x--);//menampilkan x--=14
 console.log('--x =', --x);//menampilkan --x=12
+
+//Buat variable untuk latihan 5.3 Operasi sederhana Operator Perbandingan
+let a = 8;
+let b = 4;
+console.log(a, b);//menampilkan 8, 4
+console.log('a > b =', a > b);//menampilkan a > b = true
+console.log('a < b =', a < b);//menampilkan a < b = false
+console.log('a >= b =', a >= b);//menampilkan a >= b = true
+console.log('a <= b =', a <= b);//menampilkan a <= b = false
+console.log('a == b =', a == b);//menampilkan a == b = false
+console.log('a != b =', a != b);//menampilkan a !=b = true
+console.log('a === b =', a === b);//menampilkan a === b = false
+console.log('a !== b =', a !== b);//menampilkan a !== b = true
