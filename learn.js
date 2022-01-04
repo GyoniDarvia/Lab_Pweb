@@ -51,3 +51,19 @@ console.log('false || true =', false || true);//menampilkan false || true = true
 console.log('false || false =', false || false);//menampilkan false || false = false
 console.log('!true =', !true);//menampilkan !true = false
 console.log('!false =', !false);//menampilkan !false = true
+
+//Membuat fungsi sederhana latihan 5.5
+function LuasPersegi(sisi){
+    let LuasPersegi = sisi * sisi; //Rumus luas Persegi
+    return LuasPersegi;
+}console.log('Luas Persegi = ',LuasPersegi(6));// Luas Persegi = 36
+
+function LuasSegitiga(a,t){
+    let LuasSegitiga = 0.5 * a * t;//Rumus Luas Segitiga
+    return LuasSegitiga;
+}console.log('Luas Segitiga = ', LuasSegitiga(5,4)); // Luas Segitiga = 10
+
+function VolumeBalok(p,l,t){
+    let VolumeBalok = p * l * t;//Rumus Volume pada Balok
+    return VolumeBalok;
+}console.log('Volume Balok = ', VolumeBalok(4,5,6)); // Volume Balok = 120 
