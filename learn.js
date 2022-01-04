@@ -112,3 +112,13 @@ console.log(profile["Alamat"]); // menampilkan alamat
 console.log(profile["Kontak"]); // menampilkan kontak
 console.log(profile["Pekerjaan"]); // menampilkan pekerjaan
 console.log(profile["NamaLengkap"]()); // menampilkan nama lengkap 
+
+//Latihan 5.8 Anomali pada JS
+console.log(0.1 + 0.2 == 0.3); //menampilkan false, sebab hasil penjumlahannya tidak sama
+console.log(1 + "1"); //menampilkan 11, karena merupakan penggabungan angka dan string
+console.log(1 - "1"); //menampilkan 0, karena operator pengurangan hanya untuk numerik, setelah itu keduanya akan diubah ke numerik
+console.log(1 < 2 < 3); //menampilkan true, karena perbandingannya true atau benar
+console.log(3 > 2 > 1); //menampilkan false, karena perbandingannya tidak tepat atau false
+console.log(null == 0); //menampilkan false, karena null tidak sama dengan 0 int
+console.log(null > 0); //menampilkan false, sebab null =+0 sama dengan 0
+console.log(null >= 0); //menampilkan true, karena null > = 0 
